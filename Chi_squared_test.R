@@ -19,11 +19,11 @@ condi.gender.table <- table(mydata$Warunek, mydata$plec)
 
 condi.gender.table
 
-# numer in row 
+# numbers in row 
 
 margin.table(condi.gender.table,1)
 
-# numer in columns
+# numbers in columns
 
 margin.table(condi.gender.table,2)
 
